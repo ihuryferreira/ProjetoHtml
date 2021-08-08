@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>UNES - Contato</title>
+		<meta charset="utf-8">
+		<script src="js/masc.js"></script>
+	</head>
+	<style>
+		a{text-decoration: none}
+	</style>
+	<body background="img/fundo2.png">
+		<table border="0" width="900" align="center">
+			<tr>
+				<td height="89"><img src="img/logo.png"></td>
+				<td align="right">
+					<a href="index.html">Home</a> |
+					<a href="quem-somos.html">Quem Somos</a> |
+					<a href="contato.html">Contato</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<h2>Entre em Contato</h2>
+					<p>
+						Lorem <strong>ipsum dolor</strong> sit <em>amet</em>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl.
+					</p>
+
+					<hr>
+
+					<form>
+						<strong>Seu Nome:</strong> <br>
+						<input type="text" name="name"><br><br>
+
+						<strong>Seu Sobre Nome:</strong> <br>
+						<input type="text" name="name"><br><br>
+
+						<strong>Seu e-mail:</strong> <br>
+						<input type="email" name="email"><br><br>
+						
+						<strong>Seu Telefone:</strong> <br>
+						<input type="text" name="telefone" pattern="\([0-9]{3}\)[0-9]{4}-[0-9]{5}" onkeypress="this.value = formataFone2(event)" maxlength="15"><br><br>
+						
+						<strong>Seu Celular:</strong> <br>
+						<input type="text" name="fone" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}" onkeypress="this.value = formataFone(event)" maxlength="16"><br><br>
+
+						<strong>Assunto:</strong> <br>
+						<input type="text" name="assunto"><br><br>
+
+						<strong>Interesses:</strong> <br>
+						<input type="checkbox" name="">HTML5<br>
+						<input type="checkbox" name="">CSS3<br>
+						<input type="checkbox" name="">JavaScript Web<br><br>
+
+						<strong>Estado Que Você Mora:</strong> <br>
+						<select>
+							<option value=""></option>
+							<option value="ac">AC</option>
+							<option value="al">AL</option>
+							<option value="ap">AP</option>
+							<option value="am">AM</option>
+							<option value="ba">BA</option>
+							<option value="ce">CE</option>
+							<option value="es">ES</option>
+							<option value="go">GO</option>
+							<option value="ma">MA</option>
+							<option value="mt">MT</option>
+							<option value="ms">MS</option>
+							<option value="mg">MG</option>
+							<option value="pa">PA</option>
+							<option value="pb">PB</option>
+							<option value="pr">PR</option>
+							<option value="pe">PE</option>
+							<option value="pi">PI</option>
+							<option value="rj">RJ</option>
+							<option value="rn">RN</option>
+							<option value="rs">RS</option>
+							<option value="ro">RO</option>
+							<option value="rr">RR</option>
+							<option value="sc">SC</option>
+							<option value="sp">SP</option>
+							<option value="se">SE</option>
+							<option value="to">TO</option>
+							<option value="df">DF</option>
+						</select><br><br>
+
+						<strong>Cidade que você Mora:</strong> <br>
+						<input type="text" name="city"><br><br>
+
+
+						<strong>Descrição:</strong> <br>
+						<textarea rows="10" cols="50" maxlength="800" placeholder="Escreva algo aqui!!"></textarea><br>
+
+						<input type="submit" value="Enviar">
+					</form>
+				</td>
+			<tr>
+				<td colspan="2" align="center">
+					<h4>Todos os Diretos Resevados</h4>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
